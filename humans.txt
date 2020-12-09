@@ -1,0 +1,17 @@
+/*Sitio web - www.facebook.com/antorcus*/
+/*TEAM*/
+	Creator: Marco Antonio 
+	Contact: antorcus [at] outlook.com	
+	Twitter: @antorcus
+	From: Puebla, Puebla
+/*IN MEMORIAL*/
+	Name
+/*THANKS*/
+	Name, name, name
+	Institución url
+/*SITE*/
+	Last update: 2020/11/20
+	Language: Español
+	Standards: HTML5, CSS3, JavaScript
+	Components: JQuery
+	Software: Bloc de notas

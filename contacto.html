@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8"/>
+	<title>Contacto</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+	<meta name="description" content="Contacto"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/><!--El contenido se visualiza conforme al ancho del dispositivo, la escala inicial es 1-->
+	<link rel="shortcut icon"  type="image/x-icon" href="img/favicon.ico"/>
+	<!--humanstxt.org uso alternativo a meta tag-->
+	<link rel="author" type="text/plain" href="humans.txt"/>
+	<!--Primero estilos de plug-ins y luego el estilo del sitio-->
+	<link rel="stylesheet" type="text/css" href="css/estilos.css"/>	
+	<!--Archivo JS para navegadores viejos, genera divs para tags no reconocidas-->
+	<!-- [if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<! [endif] -->
+</head>
+<body>
+	<header>
+		<h1>
+			<a href="index.html">
+				<img class="fade" alt="dominio.com" src="img/logo.png"/>
+			</a>
+		</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="acerca.html">Acerca</a></li>
+				<li><a href="servicios.html">Servicios</a></li>
+				<li><a href="trabajos.html">Trabajos</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="contenido">
+		<section id="contacto">
+			<h2>Cont&aacute;ctanos</h2>
+			<article id="info-contacto">
+				<p>
+					Email:
+					<span class="datos-contacto">antorcus@outlook.com</span>
+					<br/>
+					M&oacute;vil:
+					<span class="datos-contacto">55 1 22 21 96 13 74</span>
+					<br/>
+					Web:
+					<span class="datos-contacto">https://facebook.com/antorcus/</span>
+					<br/>
+					Direcci&oacute;n:
+					<span class="datos-contacto">Lomas 5 de Mayo</span>
+					<br/>
+					Social media:
+					<span class="datos-contacto">
+						<a class="fade" href="http://facebook.com/antorcus" title="Facebook"><img class="socialmedia" src="img/mini.jpg"</a>
+						&nbsp;&nbsp;&nbsp;
+						<a class="fade" href="http://facebook.com/antorcus" title="Twitter"><img class="socialmedia" src="img/mini.jpg"</a>
+						&nbsp;&nbsp;&nbsp;
+						<a class="fade" href="http://facebook.com/antorcus" title="Instagram"><img class="socialmedia" src="img/mini.jpg"</a>
+						&nbsp;&nbsp;&nbsp;
+						<a class="fade" href="http://facebook.com/antorcus" title="GitHub"><img class="socialmedia" src="img/mini.jpg"</a>
+						&nbsp;&nbsp;&nbsp;
+					</span>
+				</p>
+			</article>
+			<article id="contactanos">
+				<form>
+					<fieldset>
+						<legend>Env&iacute;anos tus comentarios</legend>
+						<div>
+							<label for="nombre">Nombre:</label>
+							<input type="text" id="nombre" class="fade" name="nombre_txt" required/>
+						</div>
+						<div>
+							<label for="email">Email:</label>
+							<input type="email" id="email" class="fade" name="email_txt" required/>
+						</div>
+						<div>
+							<label for="asunto">Asunto:</label>
+							<input type="text" id="asunto" class="fade" name="asunto_txt" required/>
+						</div>
+						<div>
+							<label for="comentarios">Comentario:</label>
+							<textarea id="comentarios" class="fade" name="comentarios_txta" cols="31" rows="5" required></textarea>
+						</div>
+						<div>						
+							<input type="submit" id="enviar" class="fade" name="enviar_btn" value="Enviar"/>
+						</div>
+					</fieldset>
+				</form>
+			</article>
+		</section>
+		<section id="mapa">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15930964.117133496!2d92.44150436558084!3d12.882268759193822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304d8df747424db1%3A0x9ed72c880757e802!2sTailandia!5e0!3m2!1ses!2smx!4v1607388740817!5m2!1ses!2smx" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" target="_blank"></iframe>
+		</section>
+	</section>
+	<footer>
+		<!--target="_blank" abre el enlace en una nueva pestaña-->
+		HTML5, CSS3, JQuery y responsive web design con <a rel="author" 				href="http://twitter.com/antorcus" target="_blank">@antorcus</a>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8"/>
+	<title>Sitio con responsive design en HTML5, CSS3 y JQuery</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" 			rel="stylesheet">
+	<meta name="description" content="Bienvenido a mi portafolio web hecho con HTML5, CSS3 y 		JQuery y responsive web design"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/><!--El contenido se 			visualiza conforme al ancho del dispositivo, la escala inicial es 1-->
+	<link rel="shortcut icon"  type="image/x-icon" href="img/favicon.ico"/>
+	<!--humanstxt.org uso alternativo a meta tag-->
+	<link rel="author" type="text/plain" href="humans.txt"/>
+	<!--Primero estilos de plug-ins y luego el estilo del sitio-->
+	<link rel="stylesheet" href="css/flexslider.css"/>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+	<!--Invocar JQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
+	<script src="js/jquery.flexslider.js"></script>
+	<script>
+		$(window).on("load",function(){
+		$(".flexslider").flexslider();
+	});
+	</script>
+	<!--Archivo JS para navegadores viejos, genera divs para tags no reconocidas-->
+	<!-- [if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<! [endif] -->
+</head>
+<body>
+	<header>
+		<h1>
+			<a href="index.html">
+				<img class="fade" alt="dominio.com" src="img/logo.png"/>
+			</a>
+		</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="acerca.html">Acerca</a></li>
+				<li><a href="servicios.html">Servicios</a></li>
+				<li><a href="trabajos.html">Trabajos</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="contenido">
+		<section id="principal">
+			<article id="galeria-inicio">
+				<div class="flexslider">
+					<ul class="slides">
+						<li>
+							<a href=""><img 										src="img/slider1.png"/></a>
+							<p class="flex-caption">Slider1</p>
+						</li>
+						<li>
+							<a href=""><img 										src="img/slider2.png"/></a>
+							<p class="flex-caption">Slider2</p>
+						</li>
+						<li>
+							<a href=""><img 										src="img/slider3.png"/></a>
+							<p class="flex-caption">Slider3</p>
+						</li>
+						<li>
+							<a href=""><img 										src="img/slider4.png"/></a>
+							<p class="flex-caption">Slider4</p>
+						</li>					
+					</ul>
+				</div>			
+			</article>
+		</section>
+		<aside>
+			<!--Twitter-->
+			<script src="http://platform.twitter.com/widgets.js"></script>
+			<a href="http://twitter.com/share" class="twitter-share-button" data-text="#anthorcus" data-url="http://twitter.com/anthorcus" data-count="vertical">Twittear<a/>
+			<!--Facebook-->
+			<div id="fb-root"></div>
+			<script src="http://connect.facebook.net/es-LA/all.js#xfbml=1"></script>
+			<fb:like href="http://facebook.com/anth0rcus" send="false" 						layout="box_count" show-faces="false" font="tahoma"></fb:like>
+			<!--Publicidad-->
+			<figure>
+				<a class="fade" href="http://facebook.com/anth0rcus" 				target="_blank">
+					<img src="img/logo.png" alt="publicidad"/>
+					<figcaption>Publicidad</fingcaption>
+				</a>
+			</figure>
+		</aside>
+	</section>
+	<footer>
+		<!--target="_blank" abre el enlace en una nueva pestaña-->
+		HTML5, CSS3, JQuery y responsive web design con <a rel="author" 				href="http://twitter.com/antorcus" target="_blank">@antorcus</a>
+	</footer>
+</body>
+</html>

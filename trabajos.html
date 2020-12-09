@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8"/>
+	<title>Trabajos</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+	<meta name="description" content="Trabajos"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/><!--El contenido se visualiza conforme al ancho del dispositivo, la escala inicial es 1-->
+	<link rel="shortcut icon"  type="image/x-icon" href="img/favicon.ico"/>
+	<!--humanstxt.org uso alternativo a meta tag-->
+	<link rel="author" type="text/plain" href="humans.txt"/>
+	<!--Primero estilos de plug-ins y luego el estilo del sitio-->
+	<link rel="stylesheet" href="css/jquery.fancybox.css"/>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+	<!--Invocar JQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
+	<script src="js/jquery.mousewheel.pack.js"></script>
+	<script src="js/jquery.fancybox.js"></script>
+	<script>
+		$(document).on("ready", function(){			
+			$(".fade").fancybox();
+		});
+	</script>
+	<!--Archivo JS para navegadores viejos, genera divs para tags no reconocidas-->
+	<!-- [if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<! [endif] -->
+</head>
+<body>
+	<header>
+		<h1>
+			<a href="index.html">
+				<img class="fade" alt="dominio.com" src="img/logo.png"/>
+			</a>
+		</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="acerca.html">Acerca</a></li>
+				<li><a href="servicios.html">Servicios</a></li>
+				<li><a href="trabajos.html">Trabajos</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="contenido">
+		<section id="trabajos">
+			<h2>Algunos de nuestro trabajos</h2>
+			<div class="portafolio">
+				<article>
+					<a rel="trabajos" class="fade" href="img/normal.jpg" title="Trabajo 1">
+						<img class="redonda" src="img/mini.jpg"/>
+					</a>
+				</article>
+				<article>
+					<a rel="trabajos" class="fade" href="img/normal.jpg" title="Trabajo 2">
+						<img class="redonda" src="img/mini.jpg"/>
+					</a>
+				</article>
+				<article>
+					<a rel="trabajos" class="fade" href="img/normal.jpg" title="Trabajo 3">
+						<img class="redonda" src="img/mini.jpg"/>
+					</a>
+				</article>
+				<article>
+					<a rel="trabajos" class="fade" href="img/normal.jpg" title="Trabajo 4">
+						<img class="redonda" src="img/mini.jpg"/>
+					</a>
+				</article>
+				<article>
+					<a rel="trabajos" class="fade" href="img/normal.jpg" title="Trabajo 5">
+						<img class="redonda" src="img/mini.jpg"/>
+					</a>
+				</article>
+			</div>
+			<div class="portafolio">
+				<article>
+					<a rel="trabajos" class="fade" href="img/normal.jpg" title="Trabajo 6">
+						<img class="redonda" src="img/mini.jpg"/>
+					</a>
+				</article>
+				<article>
+					<a rel="trabajos" class="fade" href="img/normal.jpg" title="Trabajo 7">
+						<img class="redonda" src="img/mini.jpg"/>
+					</a>
+				</article>
+				<article>
+					<a rel="trabajos" class="fade" href="img/normal.jpg" title="Trabajo 8">
+						<img class="redonda" src="img/mini.jpg"/>
+					</a>
+				</article>
+				<article>
+					<a rel="trabajos" class="fade" href="img/normal.jpg" title="Trabajo 9">
+						<img class="redonda" src="img/mini.jpg"/>
+					</a>
+				</article>
+				<article>
+					<a rel="trabajos" class="fade" href="img/normal.jpg" title="Trabajo 10">
+						<img class="redonda" src="img/mini.jpg"/>
+					</a>
+				</article>
+			</div>
+		</section>
+	</section>
+	<footer>
+		<!--target="_blank" abre el enlace en una nueva pestaña-->
+		HTML5, CSS3, JQuery y responsive web design con <a rel="author" href="http://twitter.com/antorcus" target="_blank">@antorcus</a>
+	</footer>
+</body>
+</html>
